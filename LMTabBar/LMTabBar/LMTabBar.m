@@ -7,8 +7,8 @@
 //
 
 #import "LMTabBar.h"
-#import <UIView+Size.h>
-#import <UIButton+Edge.h>
+#import <LMTools/UIView+Size.h>
+#import <LMTools/UIButton+Edge.h>
 
 @interface LMTabBar()
 @property (nonatomic, strong) UIButton *middleBtn;
