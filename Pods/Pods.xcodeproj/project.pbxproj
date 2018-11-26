@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A44D3A57972711AA0814A19C5560B6 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = E57ED56632BD21610F04F1CF0B4DAB5E /* UIView+Size.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3681A139722D97FCD6D7A0B133308A88 /* Pods-LMTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8974BD2214672F49C5F8BB7210D48D5B /* Pods-LMTabBar-dummy.m */; };
+		58086377DDF992418E48908B410712A1 /* LMTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B45AFCD8538E6E935BCA7623AA46F5 /* LMTools-dummy.m */; };
+		660D9A1BA9E0E2052160145D9FED6015 /* UIButton+Edge.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D8F30305A3188102E0835EA991CF33 /* UIButton+Edge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D469559E4243B639F248F9BD9E9CE90 /* UIView+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD5A283F2BB8A79881371CADB4C6000 /* UIView+Size.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70EE6410F57E82126076F8700F774CF4 /* UIButton+Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A2F3AFB74DEFDCCD4F10A9EAFCCFE /* UIButton+Edge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBAB71F4B7EDC1B489A6D2268A809AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E35F09DA0D29D558F9CF7B5D802B132;
+			remoteInfo = LMTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE28225AE0CA0EB5233342F21F70AF0 /* LMTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMTools.xcconfig; sourceTree = "<group>"; };
+		1B03288C50AE157BF62F628856D85022 /* libLMTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLMTools.a; path = libLMTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD5A283F2BB8A79881371CADB4C6000 /* UIView+Size.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Size.h"; path = "LMTools/LMTools/UIView+Size.h"; sourceTree = "<group>"; };
+		3B3A2F3AFB74DEFDCCD4F10A9EAFCCFE /* UIButton+Edge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Edge.m"; path = "LMTools/LMTools/UIButton+Edge.m"; sourceTree = "<group>"; };
+		8974BD2214672F49C5F8BB7210D48D5B /* Pods-LMTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LMTabBar-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A0081B2589527B5B3456E3E60CEC6C5 /* LMTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMTools-prefix.pch"; sourceTree = "<group>"; };
+		A837AEB9FA5E41072D3C3CB6DFCB77AF /* Pods-LMTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		B6D8F30305A3188102E0835EA991CF33 /* UIButton+Edge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Edge.h"; path = "LMTools/LMTools/UIButton+Edge.h"; sourceTree = "<group>"; };
+		BF9BEAF6CB8AD2C646E07B66F2017FE8 /* libPods-LMTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LMTabBar.a"; path = "libPods-LMTabBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74E492D4282EE1B14FD6E17F8612A40 /* Pods-LMTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		E57ED56632BD21610F04F1CF0B4DAB5E /* UIView+Size.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Size.m"; path = "LMTools/LMTools/UIView+Size.m"; sourceTree = "<group>"; };
+		EF234DC88363934AEE26C38B365E66FD /* Pods-LMTabBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMTabBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4B45AFCD8538E6E935BCA7623AA46F5 /* LMTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMTools-dummy.m"; sourceTree = "<group>"; };
+		FF12145B2CAE20E3B01E8B6F74667D79 /* Pods-LMTabBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LMTabBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9478A2D63FAC2D54E5E3C09E3BB7E138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74925F7C031C2DB72EA63178D31861A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D0EA4D00B78934E8941DC0F83A41660 /* LMTools */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8F30305A3188102E0835EA991CF33 /* UIButton+Edge.h */,
+				3B3A2F3AFB74DEFDCCD4F10A9EAFCCFE /* UIButton+Edge.m */,
+				2DD5A283F2BB8A79881371CADB4C6000 /* UIView+Size.h */,
+				E57ED56632BD21610F04F1CF0B4DAB5E /* UIView+Size.m */,
+				3E9D18C33BFDE13307CE1C667961EE80 /* Support Files */,
+			);
+			name = LMTools;
+			path = LMTools;
+			sourceTree = "<group>";
+		};
+		3E9D18C33BFDE13307CE1C667961EE80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BE28225AE0CA0EB5233342F21F70AF0 /* LMTools.xcconfig */,
+				F4B45AFCD8538E6E935BCA7623AA46F5 /* LMTools-dummy.m */,
+				9A0081B2589527B5B3456E3E60CEC6C5 /* LMTools-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LMTools";
+			sourceTree = "<group>";
+		};
+		6146D687C36CBBE322AD0CE79B94025F /* Pods-LMTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FF12145B2CAE20E3B01E8B6F74667D79 /* Pods-LMTabBar-acknowledgements.markdown */,
+				EF234DC88363934AEE26C38B365E66FD /* Pods-LMTabBar-acknowledgements.plist */,
+				8974BD2214672F49C5F8BB7210D48D5B /* Pods-LMTabBar-dummy.m */,
+				D74E492D4282EE1B14FD6E17F8612A40 /* Pods-LMTabBar.debug.xcconfig */,
+				A837AEB9FA5E41072D3C3CB6DFCB77AF /* Pods-LMTabBar.release.xcconfig */,
+			);
+			name = "Pods-LMTabBar";
+			path = "Target Support Files/Pods-LMTabBar";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				AFD4035FB91528B2117AD59DDEBCAA54 /* Pods */,
+				A7A25C315E4A0949D496EDC49DBF42DC /* Products */,
+				FE395A9BDC4A3A0ED6AB4847170C9E0F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A25C315E4A0949D496EDC49DBF42DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B03288C50AE157BF62F628856D85022 /* libLMTools.a */,
+				BF9BEAF6CB8AD2C646E07B66F2017FE8 /* libPods-LMTabBar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD4035FB91528B2117AD59DDEBCAA54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D0EA4D00B78934E8941DC0F83A41660 /* LMTools */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE395A9BDC4A3A0ED6AB4847170C9E0F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6146D687C36CBBE322AD0CE79B94025F /* Pods-LMTabBar */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14CDB797D7366A9D967422A5FA1D594B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660D9A1BA9E0E2052160145D9FED6015 /* UIButton+Edge.h in Headers */,
+				6D469559E4243B639F248F9BD9E9CE90 /* UIView+Size.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB3E075FC8DB41E03B9B595D42FB648 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E35F09DA0D29D558F9CF7B5D802B132 /* LMTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A00F50816840BB5165D60049989FCB /* Build configuration list for PBXNativeTarget "LMTools" */;
+			buildPhases = (
+				14CDB797D7366A9D967422A5FA1D594B /* Headers */,
+				8011CF945D0899A0131733CD338183D4 /* Sources */,
+				E74925F7C031C2DB72EA63178D31861A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMTools;
+			productName = LMTools;
+			productReference = 1B03288C50AE157BF62F628856D85022 /* libLMTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ACFF56EA32E918C47F69B6F8EF113A2B /* Pods-LMTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAC51626B42B2CD07E5709DA3895B00 /* Build configuration list for PBXNativeTarget "Pods-LMTabBar" */;
+			buildPhases = (
+				6EB3E075FC8DB41E03B9B595D42FB648 /* Headers */,
+				0765979F9DF5069E3083029F16B22B49 /* Sources */,
+				9478A2D63FAC2D54E5E3C09E3BB7E138 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22CF7B3696B5B61FE0CEB18099A8D83 /* PBXTargetDependency */,
+			);
+			name = "Pods-LMTabBar";
+			productName = "Pods-LMTabBar";
+			productReference = BF9BEAF6CB8AD2C646E07B66F2017FE8 /* libPods-LMTabBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A7A25C315E4A0949D496EDC49DBF42DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E35F09DA0D29D558F9CF7B5D802B132 /* LMTools */,
+				ACFF56EA32E918C47F69B6F8EF113A2B /* Pods-LMTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0765979F9DF5069E3083029F16B22B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3681A139722D97FCD6D7A0B133308A88 /* Pods-LMTabBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8011CF945D0899A0131733CD338183D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58086377DDF992418E48908B410712A1 /* LMTools-dummy.m in Sources */,
+				70EE6410F57E82126076F8700F774CF4 /* UIButton+Edge.m in Sources */,
+				34A44D3A57972711AA0814A19C5560B6 /* UIView+Size.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F22CF7B3696B5B61FE0CEB18099A8D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LMTools;
+			target = 7E35F09DA0D29D558F9CF7B5D802B132 /* LMTools */;
+			targetProxy = FBAB71F4B7EDC1B489A6D2268A809AF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0445EA83295DD2599899A2D38FBC2C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE28225AE0CA0EB5233342F21F70AF0 /* LMTools.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LMTools/LMTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LMTools;
+				PRODUCT_NAME = LMTools;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DFB38593D1144BC4423B809446B5828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE28225AE0CA0EB5233342F21F70AF0 /* LMTools.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LMTools/LMTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LMTools;
+				PRODUCT_NAME = LMTools;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7A3A7BB196240D1B1D180E4052F7F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D74E492D4282EE1B14FD6E17F8612A40 /* Pods-LMTabBar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEDAA03F0F6913C71353EA0AF8650133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A837AEB9FA5E41072D3C3CB6DFCB77AF /* Pods-LMTabBar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAC51626B42B2CD07E5709DA3895B00 /* Build configuration list for PBXNativeTarget "Pods-LMTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A3A7BB196240D1B1D180E4052F7F14 /* Debug */,
+				FEDAA03F0F6913C71353EA0AF8650133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A00F50816840BB5165D60049989FCB /* Build configuration list for PBXNativeTarget "LMTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0445EA83295DD2599899A2D38FBC2C9A /* Debug */,
+				0DFB38593D1144BC4423B809446B5828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

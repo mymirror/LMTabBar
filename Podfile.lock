@@ -1,0 +1,16 @@
+PODS:
+  - LMTools (0.0.1)
+
+DEPENDENCIES:
+  - LMTools
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LMTools
+
+SPEC CHECKSUMS:
+  LMTools: 89a48e8952ad1a5790db667d0896912a66c12e71
+
+PODFILE CHECKSUM: 079874179340fbcfc315d81f43ae482df0604a5a
+
+COCOAPODS: 1.6.0.beta.1
